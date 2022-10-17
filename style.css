@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap');
+
+@font-face 
+{ 
+font-family: "LynoJean";  
+src: url("fonts/LynoJean.otf")format("otf"); 
+}
+
+a {text-decoration: none;}
+html, body {
+  height: 100%;
+  width: 100%;
+}
+body {
+    font-family: 'Inter', cursive;
+    font-weight: 200;
+    \font-size:24px;
+    
+}
+h1 {
+    font-family: "LynoJean", Impact;
+}
+.penne-page h1 {
+    font-family: "LynoJean", Impact;
+}
+nav ul {
+    display:flex;
+    list-style: none;
+    align-items:center;
+}
+ .button {
+        padding:20px;
+    display:inline-block;
+        -webkit-clip-path: polygon(0 0, 0 25%, 750% 100%, 100% 25%, 75% 0);
+        clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+        background: #000;
+     color: #fff;
+     font-weight:700;
+      }
+.buttonlg {
+    font-size: 100px;
+}
+.buttonlt {
+    background: #fff;
+    border:1px solid #000;
+    color: #000;
+    font-weight:200;
+    position:absolute;
+    bottom:100px;
+    left:100px;
+}
+header, main { width:90%; margin:auto;}
+header {
+    display:flex;
+    justify-content:space-between;
+}
+header .left {
+    padding-right:100px;
+}
+
+main { position: relative; }
+hr {
+    box-shadow: none;
+    border:1px solid black;
+}
+.active {
+    border-bottom:1px solid black;
+}
